@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Рустам Ахметов](https://up.htmlacademy.ru/htmlcss/22/user/465825).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Иовлев](https://htmlacademy.ru/profile/skywalker).
 
 ---
 
