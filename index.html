@@ -10,10 +10,21 @@
         <img src="/img/logo.jpg" width="220" height="46" alt="Логотип Техномарта">
       </a>
       <ul>
-        <a class="main-search" href="/search.html">Поиск</a>
-        <a class="main-favorites" href="/favorites.html">Закладки</a>
-        <a class="main-basket" href="/basket.html">Корзина</a>
-        <a class="main-order" href="/order.html">Оформить заказ</a>
+        <li>
+          <form action="/search" method="post">
+            <input type="text" placeholder="Поиск" name="search">
+            <input type="submit">
+          </form>
+        </li>
+        <li>
+          <a class="main-favorites" href="/favorites.html">Закладки</a>
+        </li>
+        <li>
+          <a class="main-basket" href="/basket.html">Корзина</a>
+        </li>
+        <li>
+          <a class="main-order" href="/order.html">Оформить заказ</a>
+        </li>
       </ul>
       <section class="main-header-info">
         Интернет-магазин<br>
