@@ -11,98 +11,88 @@
           <a class="main-header-logo">
             <img src="img/logo.jpg" width="220" height="46" alt="Логотип Техномарта">
           </a>
+          <form class="search-form" action="#" method="post">
+            <input type="text" placeholder="Поиск" name="search">
+            <input type="submit">
+          </form>
           <ul>
             <li>
-              <form action="/search" method="post">
-                <input type="text" placeholder="Поиск" name="search">
-                <input type="submit">
-              </form>
+              <a class="main-favorites" href="#">Закладки</a>
             </li>
             <li>
-              <a class="main-favorites" href="/favorites.html">Закладки</a>
+              <a class="main-basket" href="#">Корзина</a>
             </li>
             <li>
-              <a class="main-basket" href="/basket.html">Корзина</a>
-            </li>
-            <li>
-              <a class="main-order" href="/order.html">Оформить заказ</a>
+              <a class="main-order" href="#">Оформить заказ</a>
             </li>
           </ul>
         </div>
       </div>
-      <div class="main-header-info-background">
-        <section class="main-header-info">
-          Интернет-магазин<br>
-          строительных материалов<br>
-          и инструментов для ремонта
-        </section>
-        <div class="main-header-contacts">
-          <span class="main-header-phone">
-            +7 (812) 555-05-55
-          </span>
-          <span class="main-header-address">
-            г.Санкт-Петербург, ул. Б. Конюшенная, д.19/8
-          </span>
+      <div class="main-header-info">
+        <div class="container">
+          <section class="main-header-info">
+            Интернет-магазин<br>
+            строительных материалов<br>
+            и инструментов для ремонта
+          </section>
+          <div class="main-header-contacts">
+            <span class="main-header-phone">
+              +7 (812) 555-05-55
+            </span>
+            <span class="main-header-address">
+              г.Санкт-Петербург, ул. Б. Конюшенная, д.19/8
+            </span>
+          </div>
+          <div class="main-header-user-info">
+            <a class="login" href="#">Войти</a>
+            <a class="register" href="#">Регистрация</a>
+          </div>
+          <nav class="site-navigation">
+            <ul class="site-navigation-list">
+              <li class="site-navigation-item"><a href="index.html">Главная</a></li>
+              <li class="site-navigation-item"><a href="#">Компания</a></li>
+              <li class="site-navigation-item"><a href="catalog.html">Каталог</a></li>
+              <li class="site-navigation-item"><a href="#">Новости</a></li>
+              <li class="site-navigation-item"><a href="#">Спецпредложения</a></li>
+              <li class="site-navigation-item"><a href="#">Доставкв</a></li>
+              <li class="site-navigation-item"><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
         </div>
-        <div class="main-header-user-info">
-          <a class="login" href="/login.html">Войти</a>
-          <a class="register" href="/register.html">Регистрация</a>
-        </div>
-        <nav class="site-navigation">
-          <ul class="site-navigation-list">
-            <li class="site-navigation-main"><a href="/index.html">Главная</a></li>
-            <li class="site-navigation-about"><a href="/about.html">Компания</a></li>
-            <li class="site-navigation-catalog"><a href="/catalog.html">Каталог</a></li>
-            <li class="site-navigation-news"><a href="/news.html">Новости</a></li>
-            <li class="site-navigation-offers"><a href="/special_offers.html">Спецпредложения</a></li>
-            <li class="site-navigation-delivery"><a href="/delivery.html">Доставкв</a></li>
-            <li class="site-navigation-contacts"><a href="/contacts.html">Контакты</a></li>
-          </ul>
-        </nav>
       </div>
     </header>
     <main>
-      <h1 class="visually-hidden">Разделы интернет-магазина</h1>
+      <h1 class="visually-hidden">Магазин Техномарт</h1>
       <section class="promo">
         <h2 class="visually-hidden">Промо разделы</h2>
         <div class="promo-materials">
           <h3>Материалы</h3>
-          <a href="/materials.html">
-            <span class="materials-info">
-              НА ЛЮБОЙ ВКУС
-            </span>
+          <a href="#">
+            на любой вкус
           </a>
         </div>
         <div class="promo-instruments">
           <h3>Материалы</h3>
-          <a href="/instruments.html">
-            <span class="instruments-info">
-              НА ВСЕ СЛУЧАИ
-            </span>
+          <a href="#">
+            на все случаи
           </a>
         </div>
         <div class="promo-equipments">
           <h3>Техника</h3>
-          <a href="/equipments.html">
-            <span class="equipments-info">
-              ДЛЯ СТРОЙКИ
-            </span>
+          <a href="#">
+            для стройки
           </a>
         </div>
         <div class="promo-discounts">
           <h3>Скидки 50%</h3>
-          <a href="/discounts.html">
-            <span class="discounts-info">
-              НА 350 ТОВАРОВ
-            </span>
+          <a href="#">
+            на 350 товаров
           </a>
         </div>
         <div class="promo-delivery">
           <h3>Доставка</h3>
-          <a href="/delivery.html">
-            <span class="delivery-info">
-              БЕСПЛАТНО
-            </span>
+          <a href="#">
+            бесплатно
           </a>
         </div>
         <div class="promo-slider">
@@ -110,21 +100,32 @@
             <a class="slider-back"></a>
             <a class="slider-forward"></a>
           </ul>
-          <img src="img/slider-logo.jpg">
-          <span>
-            ДРЕЛИ<br>
-            Соседям на радость!
-          </span>
-          <span class="catalog">
-            ОТКРЫТЬ КАТАЛОГ
-          </span>
+          <a class="catalog" href="catalog.html">
+            открыть каталог
+          </a>
+          <ul class="slider-list">
+            <li class="slider-item">
+              <img src="img/slider-drill.jpg">
+              <div>
+                <h3>ДРЕЛИ</h3>
+                <p>Соседям на радость!</p>
+              </div>
+            </li>
+            <li class="slider-item">
+              <img src="img/slider-punch.jpg">
+              <div>
+                <h3>Перфораторы</h3>
+                <p>Настоящие мужские игрушки!</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="popular-products">
         <div class="popular-products-header">
           <h2>ПОПУЛЯРНЫЕ ТОВАРЫ:</h2>
-          <a href="#" class="popular-products-all">
-            ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ
+          <a class="popular-products-link" href="#">
+            все популярные товары
           </a>
         </div>
         <ul class="popular-products-list">
@@ -156,9 +157,9 @@
       <section class="popular-manufacturers">
         <div class="popular-manufacturers-header">
           <h2>ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ:</h2>
-          <span class="all">
-            ВСЕ ПРОИЗВОДИТЕЛИ
-          </span>
+          <a class="popular-manufacturers-link" href="#">
+            все производители
+          </a>
         </div>
         <ul class="popular-manufacturers-list">
           <li>
@@ -257,7 +258,7 @@
               ЖелДорЭкспедиция
             </li>
           </ul>
-          <a href="/company.html">
+          <a href="#">
             ПОДРОБНЕЕ О КОМПАНИИ
           </a>
         </section>
@@ -268,7 +269,7 @@
             заехав в наш офис:
           </p>
           <img src="img/company_address.jpg">
-          <a href="/feedback.html">
+          <a href="#">
             ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!
           </a>
         </section>
@@ -276,7 +277,6 @@
     </main>
     <footer>
       <section class="footer-company-info">
-        <img src="img/logo.jpg">
         <p>
           г.Санкт-Петербург, ул. Б. Конюшенная, д.19/8<br>
           +7 (812) 555-05-55
@@ -285,7 +285,7 @@
           <ul>
             <li><a href="#">Компания</a></li>
             <li><a href="#">Новости</a></li>
-            <li><a href="#">Каталог</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
             <li><a href="#">Доставкв</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
@@ -304,19 +304,19 @@
           © 2010-2018 Компания "Техномарт"<br>
           Все права защищены
         </p>
-        <ul>
+        <ul class="social-list">
           <li>
-            <a href="#" class="footer-vkontakte">
+            <a class="social social-vk" href="#">
               <span>Vkontakte</span>
             </a>
           </li>
           <li>
-            <a href="#" class="footer-facebook">
+            <a class="social social-fb" href="#">
               <span>Facebook</span>
             </a>
           </li>
           <li>
-            <a href="#" class="footer-googleplus">
+            <a class="social social-gp" href="#">
               <span>Google+</span>
             </a>
           </li>
